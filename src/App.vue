@@ -1,18 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <div> 
+    <div> <firstTry></firstTry>
+    </div>
   
-  <firstTry/>
+</div>
 </template>
 
 <script>
 
-import firstTry from './components/firstTry.vue';
-
+import firstTry from './components/firstTry.vue'
 export default {
   name: 'App',
   components: {
-  
-    firstTry
+
+  firstTry
+    
   }
 
 }
